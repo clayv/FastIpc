@@ -102,7 +102,6 @@ namespace CVV
         {
             lock (NoDisposeWhileLocked)
             {
-                //AssertSafe();
                 int messageNumber = Interlocked.Increment(ref _lastMessageID);
 
                 var ms = new MemoryStream();
