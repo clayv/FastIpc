@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>CVV.FastIpc</id>
+    <version>1.0.0</version>
+    <title>CVV.FastIpc</title>
+    <authors>Clay Ver Valen</authors>
+    <owners>Clay Ver Valen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/clayv/FastIpc</projectUrl>
+    <description>CVV.FastIpc is a very fast interprocess communication library using memory mapped files.</description>
+    <releaseNotes>Initial stable release</releaseNotes>
+    <copyright>Copyright © Clay Ver Valen 2019</copyright>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/clayv/FastIpc" />
+    <tags>interprocess pointers memory mapped</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="CVV.Disposable" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
